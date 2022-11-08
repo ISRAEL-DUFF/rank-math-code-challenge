@@ -1,5 +1,5 @@
 node_modules/
-dist/
+# dist/
 .vscode/
 # Compiled Java class files
 *.class
@@ -15,7 +15,7 @@ dist/
 
 # Maven
 target/
-dist/
+# dist/
 
 # JetBrains IDE
 .idea/

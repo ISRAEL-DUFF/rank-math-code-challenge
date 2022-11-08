@@ -28,7 +28,7 @@ function load_scripts() {
     ] );
 }
 
-require_once WPRK_PATH . 'classes/class-create-admin-menu.php';
+require_once WPRK_PATH . 'classes/class-create-dashboard-widget.php';
 require_once WPRK_PATH . 'classes/class-create-settings-routes.php';
 
 
@@ -50,7 +50,9 @@ function rank_math_plugin_create_db() {
 
     $insert_sql = "INSERT INTO $table_name (name, uv, pv, amt) VALUES
     ('Page A', '4000', '24000', '2400'), ('Page B', '3000', '14200', '7500'), ('Page C', '6300', '67000', '1400'), ('Page D', '7100', '84000', '2500'), ('Page E', '9000', '22000', '2600'),
-    ('Page F', '3500', '26000', '2800'), ('Page G', '1000', '94000', '4400')
+    ('Page F', '3500', '26000', '2800'), ('Page G', '1000', '94000', '4400'),
+	('Page H', '4300', '2000', '2400'), ('Page I', '7000', '15200', '1500'), ('Page J', '4300', '117000', '3100'), ('Page K', '9100', '34000', '5100'), ('Page L', '4500', '43000', '2200'),
+    ('Page M', '1000', '85000', '3300'), ('Page N', '2394', '48374', '2837')
     ";
 
 	require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
